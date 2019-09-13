@@ -1,11 +1,16 @@
 <html>
  <head>
-  <title>Hola mundo</title>
+  <title>Numero mas alto</title>
  </head>
  <body>
  <?php 
- //Tiene que salir el numero 52 en pantalla
- echo max(8, 35, 51, 8, 17, 52);
+$n1=rand(0,100);
+$n2=rand(0,100);
+$n3=rand(0,100);
+$n4=rand(0,100);
+$n5=rand(0,100);
+$nmax=max($n1, $n2, $n3, $n4, $n5);
+echo "El numero mayor es ".$nmax
  ?>
  </body>
 </html>
