@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$x="anoa";
+ $y=strrev($x);
+  
+ if($x==$y){
+ echo "Las palabras son iguales";
+ }
+  else{
+  echo "La palabra no coincide";}
+?> 
+ 
+</body>
+</html>
