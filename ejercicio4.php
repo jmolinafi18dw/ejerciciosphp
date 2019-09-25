@@ -1,20 +1,22 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Multiplos de 3</title>
+<title>Palindroma</title>
 </head>
 <body>
+
 <?php
-$numero=rand(1,25);
-for($i=0;$i<=25;$i++){
-	if($i%$numero==0){
-    echo $i." es múltiplo de ".$numero;
-    echo "<br>";
+$x="oro";
+$y=strrev($x);
+  
+if($x==$y){
+    echo "La palabra ".$x." es Palindroma";
     }
-    else {
-    echo $i." no es múltiplo de ".$numero;
-    echo "<br>";
+ 
+else{
+    echo "La palabra ".$x." no es Palindroma";
     }
-}
-?>
+?> 
+ 
 </body>
 </html>
