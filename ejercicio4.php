@@ -4,17 +4,19 @@
 <title>Palindroma</title>
 </head>
 <body>
-
 <?php
-$x="oro";
+//Array con palabras comunes
+$letra = array("ordenador", "anona", "somos", "mesa", "alla", "bombon", "teclado", "oso", "mouse");
+//Guardamos en $x la palabra randon del array $letra
+$x=$letra[rand(0, 8)];
+//Hacemos una reversa de la palabra
 $y=strrev($x);
-  
-if($x==$y){
-    echo "La palabra ".$x." es Palindroma";
-    }
- 
-else{
-    echo "La palabra ".$x." no es Palindroma";
+//Comparamos si $x es igual a $y
+    if($x==$y){
+        echo "La palabra ".$x." es Palindroma";
+    } 
+    else{
+        echo "La palabra ".$x." no es Palindroma";
     }
 ?> 
  

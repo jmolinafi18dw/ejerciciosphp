@@ -4,7 +4,9 @@
  </head>
  <body>
  <?php
+ //Variable numero aleatorio
  $i=rand(0, 100);
+ //Sentencia que compara &i con un rango de valores
  switch ($i) {
     case (0 <= $i) && ($i <= 9):
         echo $i." Se encuentra entre 0 y 10 años";
