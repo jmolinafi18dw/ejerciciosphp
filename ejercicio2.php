@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>Numero mas alto</title>
+  <title>Mayor</title>
  </head>
  <body>
  <?php 

@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>Rango de numeros</title>
+  <title>Rango de edad</title>
  </head>
  <body>
  <?php
